@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeePet</title>
+    <link rel="stylesheet" href="L_Page.css">
+    <style>
+        .form-container {
+      background: rgb(249, 158, 0);
+      padding: 20px 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 400px;
+      position: relative;
+      left: 900px;
+
+    }
+
+    h2 {
+      text-align: center;
+      color: #800080;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .comunicacao {
+      margin-top: 15px;
+    }
+
+    .comunicacao label {
+      font-weight: normal;
+      margin-right: 10px;
+    }
+
+    button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 10px;
+      background: #800080;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background: #45a049;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <img  class="logo" src="BeePet_logo_redonda.png" alt="Logo BeePet">
+        <a href="">Ínicio</a>
+        <a href="">Serviços</a>
+        <a href="">Produtos</a>
+        <a href="">Contato</a>
+
+    </header>
+
+    <section class="conteudo-principal">
+        
+        <div class="texto">
+        <strong><h1>BeePet – Amor em Cada Pata</h1>
+        <h3>Cuidando do seu pet com amor, carinho e aquele toque especial que só quem ama entende!</h3>
+        <br>
+        <p>No nosso pet shop, entendemos que cuidar de um animal vai muito além de alimentar — é oferecer carinho, saúde e praticidade para quem ama seus bichinhos. Pensando nisso, criamos uma plataforma digital completa que conecta você, tutor, aos produtos e serviços que o seu pet precisa no dia a dia.</p>
+        <p>Aqui, você encontra:</p>
+        <ul>
+            <li>Agendamento online de banhos, tosas e consultas</li>
+            <li>Loja virtual com itens essenciais para cães, gatos e outros pets</li>
+            <li>Dicas práticas e confiáveis sobre cuidados e bem-estar animal</li>
+            <li>Um atendimento acolhedor, feito por quem ama o que faz</li>
+        </ul>
+        <p>Seja para facilitar sua rotina ou garantir o melhor para seu companheiro de quatro patas, estamos aqui para ajudar. Cuidar do seu pet nunca foi tão simples e especial!</p></strong>
+        </div>
+
+        <img  class="pets" src="pets.jpeg" alt="pets" style="max-width: 400px;">
+    </section>
+
+    <section class="formulario">
+        <div id="titulo-antes">
+            <h1>Quer acessar nossos serviços e ficar por dentro de todas as promoções? Preencha o formulário abaixo para ficar por dentro de tudo!</h1>
+            <br>
+            <h1>Entre em contato conosco via whatsapp ou email.</h1>
+        </div>
+
+        <div class="lado">
+        <div class="form-container">
+            <h2>Fale com a BeePet</h2>
+            <form>
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="celular">Celular:</label>
+            <input type="tel" id="celular" name="celular" required>
+
+            <div class="comunicacao">
+                <label>Deseja se comunicar por:</label><br>
+                <label><input type="radio" name="contato" value="email" required> E-mail</label>
+                <label><input type="radio" name="contato" value="celular"> Celular</label>
+            </div>
+
+            <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+        
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <img src="BeePet_logo_redonda.png" alt="Logo BeePet">
+        <p>BeePet – Amor em Cada Pata</p>
+    </footer>
+</body>
+</html>
